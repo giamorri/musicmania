@@ -1,0 +1,57 @@
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #333;
+}
+
+#app {
+    text-align: center;
+    margin: 50px;
+}
+
+input {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+
+.pretty-button {
+    padding: 10px 20px;
+    border: 2px solid #FFA500; 
+    border-radius: 5px;
+    background-color: white; 
+    color: #FFA500; 
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+.pretty-button:hover {
+    background-color: #FFA500; 
+    color: white; 
+}
+
+
+.button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFA500; 
+    color: white; 
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+.button:hover {
+    background-color: #FFFFFF; 
+    color: #FFA500;
+    border: 2px solid #FFA500; 
+    border-radius: 5px;
+}
